@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker rmi cyberdojofoundation/test-environment
+docker build -t cyberdojofoundation/test-environment .

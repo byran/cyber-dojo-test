@@ -1,0 +1,6 @@
+#!/bin/bash
+
+docker run -ti --rm \
+           -v /usr/src/cyber-dojo:/usr/src/cyber-dojo \
+           -v /var/run/docker.sock:/var/run/docker.sock \
+           cyberdojofoundation/test-environment
